@@ -1,10 +1,10 @@
 #include<iostream>
 #include<ctime>
 
-char UserChoice();
-char ComputerChoice();
-void showChoice(char choice);
-void ChooseWinner(char player, char computer);
+char UserChoice();                                  // |    
+char ComputerChoice();                              // |
+void showChoice(char choice);                       // |----> FUNCTION PROTOTYPE 
+void ChooseWinner(char player, char computer);      // |
 
 
 int main () 
